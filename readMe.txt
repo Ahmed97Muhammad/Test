@@ -32,3 +32,9 @@ Merging branches
 Git Hub it is now
     adding a repository
     git push githublink branchname
+
+for not pasting the whole path use
+    git remote add origin https://github.com/Ahmed97Muhammad/Test.git
+
+now use
+    git push origin master
