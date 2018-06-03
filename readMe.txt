@@ -17,6 +17,9 @@ Creating branch
     git branch bname
     git branch -a //gets all the branches of your project
 
+Creating branch and going to it
+    git checkout -b branchname
+
 got to a specefic branch
     git checkout branchname
 
@@ -30,11 +33,20 @@ Merging branches
 
 
 Git Hub it is now
-    adding a repository
+
+Creating an empty repository then same steps except origin one
+    git clone repositorylink
+
+Adding a repository already made on pc
     git push githublink branchname
 
 for not pasting the whole path use
     git remote add origin https://github.com/Ahmed97Muhammad/Test.git
 
-now use
+now use origin instead of whole path
     git push origin master
+
+to get latest update of the repository go to master then
+    git pull origin master
+
+adding branch then pull request then wait for others to review and finally owner merges it to master branch
