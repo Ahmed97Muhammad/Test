@@ -50,3 +50,6 @@ to get latest update of the repository go to master then
     git pull origin master
 
 adding branch then pull request then wait for others to review and finally owner merges it to master branch
+
+for contributing fork it so that your account has a copy of it then do some work on it and finally pull request so
+that the owner of the ocde can review it and merged it if he wants to.
